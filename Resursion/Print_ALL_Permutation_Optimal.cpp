@@ -33,10 +33,11 @@ int main() {
     int n; 
 
     cin >> n;
-    vector<int> arr(n);
-
+    vector<int> arr;
+    int val = 0;
     for (int i = 0; i < n; i++) {
-        cin >> arr[i];
+        cin >> val;
+        arr.push_back(val);
     }
 
     vector<vector<int>> ans = obj.permute(arr);
