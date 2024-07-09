@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 
-using namespace ztd;
+using namespace std;
 
 class Solution
 {
